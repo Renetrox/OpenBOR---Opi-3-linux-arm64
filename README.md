@@ -1,73 +1,72 @@
-# OpenBOR para ARM64 y Orange Pi 3B
+# OpenBOR for ARM64 and Orange Pi 3B
 
-Este repositorio contiene una versión modificada de OpenBOR (Open Beats of Rage) compatible con dispositivos ARM64, específicamente optimizada para la Orange Pi 3B.
+This repository contains a modified version of OpenBOR (Open Beats of Rage) compatible with ARM64 devices, specifically optimized for the Orange Pi 3B.
 
-## Características principales
+## Key Features
 
-- **Compatibilidad ARM64**: Modificaciones realizadas para compilar y ejecutar OpenBOR en dispositivos ARM64.
-- **Optimización para Orange Pi 3B**: Ajustes específicos para el hardware y sistema operativo de la Orange Pi 3B.
-- **Compatibilidad extendida**: Probado en distribuciones basadas en Debian y Ubuntu.
+- **ARM64 Compatibility**: Modifications made to compile and run OpenBOR on ARM64 devices.
+- **Optimized for Orange Pi 3B**: Specific adjustments for the hardware and operating system of the Orange Pi 3B.
+- **Extended Compatibility**: Tested on Debian- and Ubuntu-based distributions.
 
-## Requisitos del sistema
+## System Requirements
 
-- **Dispositivo**: Orange Pi 3B o cualquier dispositivo ARM64.
-- **Sistema operativo**: Debian 11/12, Ubuntu 20.04/22.04, o sistemas compatibles.
-- **Dependencias**:
+- **Device**: Orange Pi 3B or any ARM64 device.
+- **Operating System**: Debian 11/12, Ubuntu 20.04/22.04, or compatible systems.
+- **Dependencies**:
   - SDL2
   - GCC/G++
   - Make
   - Git
 
-## Instrucciones de instalación
+## Installation Instructions
 
-1. Clona este repositorio:
+1. Clone this repository:
 
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   git clone https://github.com/your_username/your_repository.git
+   cd your_repository
    ```
 
-2. Instala las dependencias necesarias:
+2. Install the required dependencies:
 
    ```bash
    sudo apt update
    sudo apt install -y libsdl2-dev build-essential git
    ```
 
-3. Compila OpenBOR:
+3. Compile OpenBOR:
 
    ```bash
    make
    ```
 
-4. Ejecuta OpenBOR:
+4. Run OpenBOR:
 
    ```bash
    ./OpenBOR
    ```
 
-## Notas específicas para Orange Pi 3B
+## Specific Notes for Orange Pi 3B
 
-- **Hardware**: Este proyecto aprovecha las capacidades del procesador Rockchip RK3566 y la GPU ARM Mali G52 2EE.
-- **Sistema**: Se recomienda utilizar Orange Pi OS (basado en Debian) para una experiencia más optimizada.
-- **Configuraciones adicionales**:
-  - Ajusta el escalado y la resolución desde el archivo de configuración para un rendimiento óptimo.
+- **Hardware**: This project leverages the capabilities of the Rockchip RK3566 processor and ARM Mali G52 2EE GPU.
+- **System**: Using Orange Pi OS (Debian-based) is recommended for an optimized experience.
+- **Additional Configurations**:
+  - Adjust scaling and resolution in the configuration file for optimal performance.
 
-## Personalización
+## Customization
 
-Puedes añadir tus propios juegos de OpenBOR en el directorio `Paks`. Simplemente coloca los archivos `.pak` dentro de esta carpeta.
+You can add your own OpenBOR games to the `Paks` directory. Simply place the `.pak` files inside this folder.
 
-## Créditos
+## Credits
 
-- **OpenBOR**: Proyecto original desarrollado por la comunidad de Beats of Rage.
-- **Adaptaciones ARM64**: Implementadas por @Renetrox.
-- **Contribuciones**: Agradecimientos a todos los que ayudaron en el desarrollo y pruebas.
+- **OpenBOR**: Original project developed by the Beats of Rage community.
+- **ARM64 Adaptations**: Implemented by @Renetrox.
+- **Contributions**: Thanks to everyone who helped with development and testing.
 
-## Licencia
+## License
 
-Este proyecto utiliza la misma licencia que OpenBOR. Consulta el archivo `LICENSE` para más detalles.
+This project uses the same license as OpenBOR. See the `LICENSE` file for more details.
 
 ---
 
-¡Disfruta de tus juegos en tu Orange Pi 3B!
-
+Enjoy your games on your Orange Pi 3B!
