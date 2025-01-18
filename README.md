@@ -37,7 +37,8 @@ This repository contains a modified version of OpenBOR (Open Beats of Rage) comp
 3. Compile OpenBOR:
 
    ```bash
-   make
+   make BUILD_LINUX_LE_arm64=1
+
    ```
 
 4. Run OpenBOR:
