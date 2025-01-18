@@ -23,7 +23,7 @@ This repository contains a modified version of OpenBOR (Open Beats of Rage) comp
 1. Clone this repository:
 
    ```bash
-  git clone https://github.com/Renetrox/OpenBOR-Opi-3-linux-arm64.git
+   git clone https://github.com/Renetrox/OpenBOR-Opi-3-linux-arm64.git
    cd OpenBOR-Opi-3-linux-arm64
    ```
 
@@ -60,7 +60,7 @@ You can add your own OpenBOR games to the `Paks` directory. Simply place the `.p
 ## Credits
 
 - **OpenBOR**: Original project developed by the Beats of Rage community.
-- **ARM64 Adaptations**: Implemented by @Renetrox.
+- **ARM64 Adaptations**: Implemented by Renetrox.
 - **Contributions**: Thanks to everyone who helped with development and testing.
 
 ## License
