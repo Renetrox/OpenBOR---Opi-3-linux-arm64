@@ -23,8 +23,8 @@ This repository contains a modified version of OpenBOR (Open Beats of Rage) comp
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/Renetrox/OpenBOR---Opi-3-linux-arm64.git
-   cd your_repository
+  git clone https://github.com/Renetrox/OpenBOR-Opi-3-linux-arm64.git
+   cd OpenBOR-Opi-3-linux-arm64
    ```
 
 2. Install the required dependencies:
